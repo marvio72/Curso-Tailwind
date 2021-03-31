@@ -31597,6 +31597,34 @@ video {
   }
 }
 
+@-webkit-keyframes fromBellow {
+  0% {
+    transform: translateY(0%);
+  }
+
+  50% {
+    transform: translateY(200%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes fromBellow {
+  0% {
+    transform: translateY(0%);
+  }
+
+  50% {
+    transform: translateY(200%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+
 .animate-none {
   -webkit-animation: none;
           animation: none;
@@ -31625,6 +31653,11 @@ video {
 .animate-spin-low {
   -webkit-animation: spin 2s linear infinite;
           animation: spin 2s linear infinite;
+}
+
+.animate-from-bellow {
+  -webkit-animation: fromBellow 500ms linear;
+          animation: fromBellow 500ms linear;
 }
 
 .hover\:animate-none:hover {
@@ -31657,6 +31690,11 @@ video {
           animation: spin 2s linear infinite;
 }
 
+.hover\:animate-from-bellow:hover {
+  -webkit-animation: fromBellow 500ms linear;
+          animation: fromBellow 500ms linear;
+}
+
 .group:hover .group-hover\:animate-none {
   -webkit-animation: none;
           animation: none;
@@ -31685,6 +31723,11 @@ video {
 .group:hover .group-hover\:animate-spin-low {
   -webkit-animation: spin 2s linear infinite;
           animation: spin 2s linear infinite;
+}
+
+.group:hover .group-hover\:animate-from-bellow {
+  -webkit-animation: fromBellow 500ms linear;
+          animation: fromBellow 500ms linear;
 }
 
 @media (min-width: 640px) {
@@ -62594,6 +62637,11 @@ video {
             animation: spin 2s linear infinite;
   }
 
+  .sm\:animate-from-bellow {
+    -webkit-animation: fromBellow 500ms linear;
+            animation: fromBellow 500ms linear;
+  }
+
   .sm\:hover\:animate-none:hover {
     -webkit-animation: none;
             animation: none;
@@ -62624,6 +62672,11 @@ video {
             animation: spin 2s linear infinite;
   }
 
+  .sm\:hover\:animate-from-bellow:hover {
+    -webkit-animation: fromBellow 500ms linear;
+            animation: fromBellow 500ms linear;
+  }
+
   .group:hover .sm\:group-hover\:animate-none {
     -webkit-animation: none;
             animation: none;
@@ -62652,6 +62705,11 @@ video {
   .group:hover .sm\:group-hover\:animate-spin-low {
     -webkit-animation: spin 2s linear infinite;
             animation: spin 2s linear infinite;
+  }
+
+  .group:hover .sm\:group-hover\:animate-from-bellow {
+    -webkit-animation: fromBellow 500ms linear;
+            animation: fromBellow 500ms linear;
   }
 }
 
@@ -93562,6 +93620,11 @@ video {
             animation: spin 2s linear infinite;
   }
 
+  .md\:animate-from-bellow {
+    -webkit-animation: fromBellow 500ms linear;
+            animation: fromBellow 500ms linear;
+  }
+
   .md\:hover\:animate-none:hover {
     -webkit-animation: none;
             animation: none;
@@ -93592,6 +93655,11 @@ video {
             animation: spin 2s linear infinite;
   }
 
+  .md\:hover\:animate-from-bellow:hover {
+    -webkit-animation: fromBellow 500ms linear;
+            animation: fromBellow 500ms linear;
+  }
+
   .group:hover .md\:group-hover\:animate-none {
     -webkit-animation: none;
             animation: none;
@@ -93620,6 +93688,11 @@ video {
   .group:hover .md\:group-hover\:animate-spin-low {
     -webkit-animation: spin 2s linear infinite;
             animation: spin 2s linear infinite;
+  }
+
+  .group:hover .md\:group-hover\:animate-from-bellow {
+    -webkit-animation: fromBellow 500ms linear;
+            animation: fromBellow 500ms linear;
   }
 }
 
@@ -124530,6 +124603,11 @@ video {
             animation: spin 2s linear infinite;
   }
 
+  .lg\:animate-from-bellow {
+    -webkit-animation: fromBellow 500ms linear;
+            animation: fromBellow 500ms linear;
+  }
+
   .lg\:hover\:animate-none:hover {
     -webkit-animation: none;
             animation: none;
@@ -124560,6 +124638,11 @@ video {
             animation: spin 2s linear infinite;
   }
 
+  .lg\:hover\:animate-from-bellow:hover {
+    -webkit-animation: fromBellow 500ms linear;
+            animation: fromBellow 500ms linear;
+  }
+
   .group:hover .lg\:group-hover\:animate-none {
     -webkit-animation: none;
             animation: none;
@@ -124588,6 +124671,11 @@ video {
   .group:hover .lg\:group-hover\:animate-spin-low {
     -webkit-animation: spin 2s linear infinite;
             animation: spin 2s linear infinite;
+  }
+
+  .group:hover .lg\:group-hover\:animate-from-bellow {
+    -webkit-animation: fromBellow 500ms linear;
+            animation: fromBellow 500ms linear;
   }
 }
 
@@ -155498,6 +155586,11 @@ video {
             animation: spin 2s linear infinite;
   }
 
+  .xl\:animate-from-bellow {
+    -webkit-animation: fromBellow 500ms linear;
+            animation: fromBellow 500ms linear;
+  }
+
   .xl\:hover\:animate-none:hover {
     -webkit-animation: none;
             animation: none;
@@ -155528,6 +155621,11 @@ video {
             animation: spin 2s linear infinite;
   }
 
+  .xl\:hover\:animate-from-bellow:hover {
+    -webkit-animation: fromBellow 500ms linear;
+            animation: fromBellow 500ms linear;
+  }
+
   .group:hover .xl\:group-hover\:animate-none {
     -webkit-animation: none;
             animation: none;
@@ -155556,6 +155654,11 @@ video {
   .group:hover .xl\:group-hover\:animate-spin-low {
     -webkit-animation: spin 2s linear infinite;
             animation: spin 2s linear infinite;
+  }
+
+  .group:hover .xl\:group-hover\:animate-from-bellow {
+    -webkit-animation: fromBellow 500ms linear;
+            animation: fromBellow 500ms linear;
   }
 }
 
@@ -186466,6 +186569,11 @@ video {
             animation: spin 2s linear infinite;
   }
 
+  .\32xl\:animate-from-bellow {
+    -webkit-animation: fromBellow 500ms linear;
+            animation: fromBellow 500ms linear;
+  }
+
   .\32xl\:hover\:animate-none:hover {
     -webkit-animation: none;
             animation: none;
@@ -186496,6 +186604,11 @@ video {
             animation: spin 2s linear infinite;
   }
 
+  .\32xl\:hover\:animate-from-bellow:hover {
+    -webkit-animation: fromBellow 500ms linear;
+            animation: fromBellow 500ms linear;
+  }
+
   .group:hover .\32xl\:group-hover\:animate-none {
     -webkit-animation: none;
             animation: none;
@@ -186524,5 +186637,10 @@ video {
   .group:hover .\32xl\:group-hover\:animate-spin-low {
     -webkit-animation: spin 2s linear infinite;
             animation: spin 2s linear infinite;
+  }
+
+  .group:hover .\32xl\:group-hover\:animate-from-bellow {
+    -webkit-animation: fromBellow 500ms linear;
+            animation: fromBellow 500ms linear;
   }
 }

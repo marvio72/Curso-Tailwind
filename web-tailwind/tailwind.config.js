@@ -10,6 +10,14 @@ module.exports = {
       },
       animation: {
         'spin-low': 'spin 2s linear infinite',
+        'from-bellow': 'fromBellow 500ms linear',
+      },
+      keyframes: {
+        fromBellow: {
+          '0%': { transform: 'translateY(0%)' },
+          '50%': { transform: 'translateY(200%)' },
+          '100%': { transform: 'translateY(0%)' },
+        },
       },
     },
   },
