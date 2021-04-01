@@ -31625,6 +31625,26 @@ video {
   }
 }
 
+@-webkit-keyframes fromRight {
+  0% {
+    transform: translateX(200%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes fromRight {
+  0% {
+    transform: translateX(200%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
 .animate-none {
   -webkit-animation: none;
           animation: none;
@@ -31658,6 +31678,11 @@ video {
 .animate-from-bellow {
   -webkit-animation: fromBellow 500ms linear;
           animation: fromBellow 500ms linear;
+}
+
+.animate-from-right {
+  -webkit-animation: fromRight 300ms linear;
+          animation: fromRight 300ms linear;
 }
 
 .hover\:animate-none:hover {
@@ -31695,6 +31720,11 @@ video {
           animation: fromBellow 500ms linear;
 }
 
+.hover\:animate-from-right:hover {
+  -webkit-animation: fromRight 300ms linear;
+          animation: fromRight 300ms linear;
+}
+
 .group:hover .group-hover\:animate-none {
   -webkit-animation: none;
           animation: none;
@@ -31728,6 +31758,11 @@ video {
 .group:hover .group-hover\:animate-from-bellow {
   -webkit-animation: fromBellow 500ms linear;
           animation: fromBellow 500ms linear;
+}
+
+.group:hover .group-hover\:animate-from-right {
+  -webkit-animation: fromRight 300ms linear;
+          animation: fromRight 300ms linear;
 }
 
 @media (min-width: 640px) {
@@ -62642,6 +62677,11 @@ video {
             animation: fromBellow 500ms linear;
   }
 
+  .sm\:animate-from-right {
+    -webkit-animation: fromRight 300ms linear;
+            animation: fromRight 300ms linear;
+  }
+
   .sm\:hover\:animate-none:hover {
     -webkit-animation: none;
             animation: none;
@@ -62677,6 +62717,11 @@ video {
             animation: fromBellow 500ms linear;
   }
 
+  .sm\:hover\:animate-from-right:hover {
+    -webkit-animation: fromRight 300ms linear;
+            animation: fromRight 300ms linear;
+  }
+
   .group:hover .sm\:group-hover\:animate-none {
     -webkit-animation: none;
             animation: none;
@@ -62710,6 +62755,11 @@ video {
   .group:hover .sm\:group-hover\:animate-from-bellow {
     -webkit-animation: fromBellow 500ms linear;
             animation: fromBellow 500ms linear;
+  }
+
+  .group:hover .sm\:group-hover\:animate-from-right {
+    -webkit-animation: fromRight 300ms linear;
+            animation: fromRight 300ms linear;
   }
 }
 
@@ -93625,6 +93675,11 @@ video {
             animation: fromBellow 500ms linear;
   }
 
+  .md\:animate-from-right {
+    -webkit-animation: fromRight 300ms linear;
+            animation: fromRight 300ms linear;
+  }
+
   .md\:hover\:animate-none:hover {
     -webkit-animation: none;
             animation: none;
@@ -93660,6 +93715,11 @@ video {
             animation: fromBellow 500ms linear;
   }
 
+  .md\:hover\:animate-from-right:hover {
+    -webkit-animation: fromRight 300ms linear;
+            animation: fromRight 300ms linear;
+  }
+
   .group:hover .md\:group-hover\:animate-none {
     -webkit-animation: none;
             animation: none;
@@ -93693,6 +93753,11 @@ video {
   .group:hover .md\:group-hover\:animate-from-bellow {
     -webkit-animation: fromBellow 500ms linear;
             animation: fromBellow 500ms linear;
+  }
+
+  .group:hover .md\:group-hover\:animate-from-right {
+    -webkit-animation: fromRight 300ms linear;
+            animation: fromRight 300ms linear;
   }
 }
 
@@ -124608,6 +124673,11 @@ video {
             animation: fromBellow 500ms linear;
   }
 
+  .lg\:animate-from-right {
+    -webkit-animation: fromRight 300ms linear;
+            animation: fromRight 300ms linear;
+  }
+
   .lg\:hover\:animate-none:hover {
     -webkit-animation: none;
             animation: none;
@@ -124643,6 +124713,11 @@ video {
             animation: fromBellow 500ms linear;
   }
 
+  .lg\:hover\:animate-from-right:hover {
+    -webkit-animation: fromRight 300ms linear;
+            animation: fromRight 300ms linear;
+  }
+
   .group:hover .lg\:group-hover\:animate-none {
     -webkit-animation: none;
             animation: none;
@@ -124676,6 +124751,11 @@ video {
   .group:hover .lg\:group-hover\:animate-from-bellow {
     -webkit-animation: fromBellow 500ms linear;
             animation: fromBellow 500ms linear;
+  }
+
+  .group:hover .lg\:group-hover\:animate-from-right {
+    -webkit-animation: fromRight 300ms linear;
+            animation: fromRight 300ms linear;
   }
 }
 
@@ -155591,6 +155671,11 @@ video {
             animation: fromBellow 500ms linear;
   }
 
+  .xl\:animate-from-right {
+    -webkit-animation: fromRight 300ms linear;
+            animation: fromRight 300ms linear;
+  }
+
   .xl\:hover\:animate-none:hover {
     -webkit-animation: none;
             animation: none;
@@ -155626,6 +155711,11 @@ video {
             animation: fromBellow 500ms linear;
   }
 
+  .xl\:hover\:animate-from-right:hover {
+    -webkit-animation: fromRight 300ms linear;
+            animation: fromRight 300ms linear;
+  }
+
   .group:hover .xl\:group-hover\:animate-none {
     -webkit-animation: none;
             animation: none;
@@ -155659,6 +155749,11 @@ video {
   .group:hover .xl\:group-hover\:animate-from-bellow {
     -webkit-animation: fromBellow 500ms linear;
             animation: fromBellow 500ms linear;
+  }
+
+  .group:hover .xl\:group-hover\:animate-from-right {
+    -webkit-animation: fromRight 300ms linear;
+            animation: fromRight 300ms linear;
   }
 }
 
@@ -186574,6 +186669,11 @@ video {
             animation: fromBellow 500ms linear;
   }
 
+  .\32xl\:animate-from-right {
+    -webkit-animation: fromRight 300ms linear;
+            animation: fromRight 300ms linear;
+  }
+
   .\32xl\:hover\:animate-none:hover {
     -webkit-animation: none;
             animation: none;
@@ -186609,6 +186709,11 @@ video {
             animation: fromBellow 500ms linear;
   }
 
+  .\32xl\:hover\:animate-from-right:hover {
+    -webkit-animation: fromRight 300ms linear;
+            animation: fromRight 300ms linear;
+  }
+
   .group:hover .\32xl\:group-hover\:animate-none {
     -webkit-animation: none;
             animation: none;
@@ -186642,5 +186747,10 @@ video {
   .group:hover .\32xl\:group-hover\:animate-from-bellow {
     -webkit-animation: fromBellow 500ms linear;
             animation: fromBellow 500ms linear;
+  }
+
+  .group:hover .\32xl\:group-hover\:animate-from-right {
+    -webkit-animation: fromRight 300ms linear;
+            animation: fromRight 300ms linear;
   }
 }
