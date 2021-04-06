@@ -90,4 +90,15 @@
       transition
       duration-300;
   }
+
+  .card-category {
+    @apply w-full
+      h-12
+      text-xl
+      font-bold
+      text-azul-obscuro
+      text-center
+      transition
+      duration-300;
+  }
 }
