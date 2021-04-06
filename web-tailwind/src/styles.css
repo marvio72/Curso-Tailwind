@@ -57,4 +57,7 @@
     font-family: 'BebasNeue';
     text-shadow: 2px 2px 1px black;
   }
+  .card-icon {
+    @apply symbol text-2xl text-center;
+  }
 }
