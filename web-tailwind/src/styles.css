@@ -63,7 +63,8 @@
 
   /* ESTILOS TARJETAS */
   .card {
-    @apply flex-1
+    @apply group
+      flex-1
       h-80
       border-2
       border-gray-200
@@ -75,7 +76,8 @@
       px-5
       cursor-pointer
       transition
-      duration-300;
+      duration-300
+      hover:bg-black;
   }
 
   .card-icon {
