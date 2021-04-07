@@ -65,7 +65,7 @@
   .card {
     @apply group
       flex-1
-      h-80
+      h-auto
       border-2
       border-gray-200
       shadow-md
@@ -109,7 +109,8 @@
     font-family: 'TrebuchetMS';
     @apply text-center
       text-azul-obscuro
-      text-base
+      text-sm
+      mt-3
       transition
       duration-300;
   }
