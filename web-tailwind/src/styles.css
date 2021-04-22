@@ -290,4 +290,40 @@
       hover:underline
       hover:text-azul-obscuro
   }
+
+  .social-icon {
+    @apply
+      symbol
+      block
+      text-gray-700
+      mt-3
+      mb-5
+      ml-5
+      text-3xl
+  }
+
+  .social-overlay {
+    @apply
+      block
+      absolute
+      h-10
+      px-2
+      pt-1
+      ml-16
+      -mt-14
+      font-sans
+      font-bold
+      text-gray-700
+      tracking-wide
+      shadow-md
+      border-4
+      border-white
+      bg-gray-100
+      cursor-pointer
+      transition
+      duration-300
+      opacity-0
+      transform
+      -translate-x-3/4;
+  }
 }
