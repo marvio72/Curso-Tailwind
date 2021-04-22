@@ -158,4 +158,53 @@
       border
       shadow-header3D;
   }
+
+  .article-item {
+    @apply w-full 
+      h-auto 
+      border 
+    border-gray-200 
+      m-10 
+      mx-auto
+      p-2.5 
+      shadow-md 
+      text-black 
+      bg-white;
+  }
+
+  .article-data {
+    @apply text-white
+    bg-gray-800
+      p-2 
+      -m-2.5 
+      leading-6 
+      float-right 
+      h-10 
+      text-sm 
+      rounded-bl-lg;
+  }
+
+  .article-data span {
+    @apply m-2.5;
+  }
+
+  .article-head {
+    @apply block 
+      text-2xl 
+      m-1;
+  }
+
+  .article-head a {
+    @apply font-semibold 
+    text-azul-obscuro 
+      hover:underline;
+  }
+
+  .article-description {
+    @apply block 
+      my-3 
+      text-base 
+      font-sans 
+      font-normal;
+  }
 }
