@@ -80,6 +80,8 @@
       hover:bg-black
       xs:h-40
       xs:m-2
+      xs:w-80
+      xs:mx-auto
       md:h-40
       md:m-2
       lg:h-96
