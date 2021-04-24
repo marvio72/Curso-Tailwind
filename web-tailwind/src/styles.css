@@ -183,7 +183,12 @@
       float-right 
       h-10 
       text-sm 
-      rounded-bl-lg;
+      rounded-bl-lg
+      xs:w-full
+      xs:m-0
+      xs:mb-3
+      xs:rounded-none
+      xs:text-center;
   }
 
   .article-data span {
