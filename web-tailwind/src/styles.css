@@ -336,4 +336,29 @@
       transform
       -translate-x-3/4;
   }
+
+  .footer-box {
+    font-family: 'TrebuchetMS';
+    @apply 
+       flex-1
+       w-80
+       h-96
+       text-center
+       m-10
+    ;
+  }
+
+  .footer-header {
+    font-family: 'BebasNeue';
+    background: url('../img/pxgray.png'), white;
+    @apply
+      tracking-wide
+      text-black
+      text-4xl
+      text-center
+      rounded-md
+      p-1.5
+      pt-2
+      mb-4
+  }
 }
