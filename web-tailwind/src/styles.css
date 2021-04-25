@@ -345,6 +345,15 @@
        h-96
        text-center
        m-10
+
+       xs:w-11/12
+       xs:mx-auto
+       xs:mt-3
+       md:w-11/12
+       md:mx-auto
+       md:mt-3
+       lg:w-80
+       lg:m-10
     ;
   }
 
@@ -388,7 +397,8 @@
       duration-300
       text-azul-claro
       hover:text-white
-    ;
+      hover:transform
+      hover:translate-x-10
   }
 
   .browsers a{
@@ -400,7 +410,7 @@
 
   .browsers a img{
     @apply
-      h-11
+      w-11
     ;
   }
 }

@@ -30,6 +30,7 @@ module.exports = {
         'show-card-icon': 'showCardIcon 300ms linear',
         'show-card-category': 'showCardCategory 400ms linear',
         'show-card-desc': 'showCardDesc 400ms linear',
+        'menu-right': 'menuRight 300ms linear',
       },
       keyframes: {
         fromBellow: {
@@ -40,6 +41,11 @@ module.exports = {
         fromRight: {
           '0%': { transform: 'translateX(200%)' },
           '100%': { transform: 'translateX(0%)' },
+        },
+        menuRight:{
+          '0%': { transform: 'translateX(0%)'},
+          '50%': { transform: 'translateX(50%)'},
+          '100%': { transform: 'translateX(50%)'}, 
         },
         backBanner: {
           '0%': { 'background-position': '0px 0px' },
