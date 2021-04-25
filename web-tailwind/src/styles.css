@@ -390,4 +390,17 @@
       hover:text-white
     ;
   }
+
+  .browsers a{
+    @apply
+      flex-1
+      mb-1.5
+    ;
+  }
+
+  .browsers a img{
+    @apply
+      h-11
+    ;
+  }
 }
